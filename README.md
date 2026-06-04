@@ -1,2 +1,32 @@
-# Project-Aegis
-An affordable, modular quadruped robot based on Raspberry Pi 5 and local Vision-Language Models (VLM), designed to reduce global e-waste while providing assistive home care and smart monitoring.
+# Project Aegis 🛡️
+### Quadruped Modular Assistance Robot (QMAR)
+
+[cite_start]Project Aegis is an open-source, affordable, and sustainable 4-legged robotic platform built on Raspberry Pi 5[cite: 56]. [cite_start]Inspired by industrial quadruped robots like Boston Dynamics Spot, Project Aegis reimagines daily service robotics through a **modular** and **eco-friendly** architecture to actively reduce global e-waste while improving domestic convenience and assistive care[cite: 19, 21, 30, 41, 43, 44].
+
+---
+
+## 🎯 Key Features
+* [cite_start]**VLM AI Brain**: Integrated with edge-based Vision-Language Models (VLM) for real-time semantic environment comprehension, hazard/anomaly detection, and intelligent decision-making[cite: 35].
+* [cite_start]**Sustainable Modular Design**: Features a swappable modular payload system (including Mobile CCTV, Alert Units, and Medical Assist Trays) to extend product lifecycle and promote responsible consumption[cite: 30, 34, 42, 61, 63].
+* **Wireless Natural Interaction**: Supports direct wireless/Bluetooth headphone integration for ambient voice commands, ensuring low-friction, natural communication between users and the robot.
+* [cite_start]**Dynamic Gait Control**: Powered by an 8-axis servo system utilizing MG90S servos coupled with IMU feedback for adaptive stabilization and balance[cite: 54].
+
+---
+
+## 🌍 Alignment with United Nations SDGs
+[cite_start]By shifting from single-use hardware to an upgradeable modular ecosystem, Project Aegis proudly aligns with[cite: 22, 50]:
+* [cite_start]**SDG 9**: Industry, Innovation, and Infrastructure (Accessible robotics innovation) [cite: 25, 26]
+* [cite_start]**SDG 11**: Sustainable Cities and Communities (Smarter, safer environments) [cite: 27, 28]
+* [cite_start]**SDG 12**: Responsible Consumption and Production (Combating the 50M+ tonne global e-waste crisis) [cite: 15, 29]
+
+---
+
+## 📂 Repository Structure
+* `src/brain_vlm/` - Local AI models, VLM pipeline, and Bluetooth audio stream scripts.
+* `src/motion_control/` - Inverse kinematics and gait logic for the 8-DOF quadruped body.
+* `hardware/` - 3D printing STL models, sensor schematics (MPU6050), and power distribution diagrams.
+* `docs/` - Academic proposals, user manuals, and KLESF competition documentation.
+* `media/` - Presentation slides, high-resolution exhibition posters, and video demonstrations.
+
+---
+*Developed for the Kuala Lumpur Engineering Science Fair (KLESF).*
